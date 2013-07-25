@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MenuViewController.h
 //  SlideNavigation
 //
 //  Created by Ryo Suzuki on 7/25/13.
@@ -7,11 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
 #import "ECSlidingViewController.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface MenuViewController : UITableViewController
 
 @end

@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailViewController.h"
+#import "MenuViewController.h"
+#import "ECSlidingViewController.h"
 
 @interface MasterViewController : UITableViewController
 

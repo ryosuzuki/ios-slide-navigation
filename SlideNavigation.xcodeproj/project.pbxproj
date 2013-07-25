@@ -24,6 +24,10 @@
 		0D57117B17A0D01200BB501D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D57115317A0D01200BB501D /* Foundation.framework */; };
 		0D57118317A0D01200BB501D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D57118117A0D01200BB501D /* InfoPlist.strings */; };
 		0D57118617A0D01200BB501D /* SlideNavigationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D57118517A0D01200BB501D /* SlideNavigationTests.m */; };
+		0D57119C17A0D05200BB501D /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D57119917A0D05200BB501D /* ECSlidingViewController.m */; };
+		0D57119D17A0D05200BB501D /* UIImage+ImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D57119B17A0D05200BB501D /* UIImage+ImageWithUIView.m */; };
+		0D5711A017A0D0FC00BB501D /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D57119F17A0D0FC00BB501D /* MenuViewController.m */; };
+		0D5711A317A0D4A000BB501D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5711A217A0D4A000BB501D /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,14 @@
 		0D57118217A0D01200BB501D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0D57118417A0D01200BB501D /* SlideNavigationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideNavigationTests.h; sourceTree = "<group>"; };
 		0D57118517A0D01200BB501D /* SlideNavigationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationTests.m; sourceTree = "<group>"; };
+		0D57119817A0D05200BB501D /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		0D57119917A0D05200BB501D /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		0D57119A17A0D05200BB501D /* UIImage+ImageWithUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithUIView.h"; sourceTree = "<group>"; };
+		0D57119B17A0D05200BB501D /* UIImage+ImageWithUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithUIView.m"; sourceTree = "<group>"; };
+		0D57119E17A0D0FC00BB501D /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		0D57119F17A0D0FC00BB501D /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		0D5711A117A0D4A000BB501D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		0D5711A217A0D4A000BB501D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,10 +135,15 @@
 				0D57116017A0D01200BB501D /* AppDelegate.h */,
 				0D57116117A0D01200BB501D /* AppDelegate.m */,
 				0D57116917A0D01200BB501D /* MainStoryboard.storyboard */,
+				0D57119E17A0D0FC00BB501D /* MenuViewController.h */,
+				0D57119F17A0D0FC00BB501D /* MenuViewController.m */,
 				0D57116C17A0D01200BB501D /* MasterViewController.h */,
 				0D57116D17A0D01200BB501D /* MasterViewController.m */,
+				0D5711A117A0D4A000BB501D /* SecondViewController.h */,
+				0D5711A217A0D4A000BB501D /* SecondViewController.m */,
 				0D57116F17A0D01200BB501D /* DetailViewController.h */,
 				0D57117017A0D01200BB501D /* DetailViewController.m */,
+				0D57119717A0D05200BB501D /* ECSlidingViewController */,
 				0D57115817A0D01200BB501D /* Supporting Files */,
 			);
 			path = SlideNavigation;
@@ -163,6 +180,17 @@
 				0D57118117A0D01200BB501D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D57119717A0D05200BB501D /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0D57119817A0D05200BB501D /* ECSlidingViewController.h */,
+				0D57119917A0D05200BB501D /* ECSlidingViewController.m */,
+				0D57119A17A0D05200BB501D /* UIImage+ImageWithUIView.h */,
+				0D57119B17A0D05200BB501D /* UIImage+ImageWithUIView.m */,
+			);
+			path = ECSlidingViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +307,10 @@
 				0D57116217A0D01200BB501D /* AppDelegate.m in Sources */,
 				0D57116E17A0D01200BB501D /* MasterViewController.m in Sources */,
 				0D57117117A0D01200BB501D /* DetailViewController.m in Sources */,
+				0D57119C17A0D05200BB501D /* ECSlidingViewController.m in Sources */,
+				0D57119D17A0D05200BB501D /* UIImage+ImageWithUIView.m in Sources */,
+				0D5711A017A0D0FC00BB501D /* MenuViewController.m in Sources */,
+				0D5711A317A0D4A000BB501D /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
